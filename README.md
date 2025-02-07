@@ -41,7 +41,7 @@ nano record_radio.sh
 mkdir -p recordings
 
 # Radio stream URL
-URL="http://listen.trancebase.fm/tunein-mp3"
+URL="YOUR URL RADIO STATION, EXAMPLE: http://listen.trancebase.fm/tunein-mp3"
 
 # Recording duration: 59 minutes 59 seconds
 DURATION=3599
