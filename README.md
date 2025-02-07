@@ -1,5 +1,7 @@
 # LN-FFMPEG-RecordRadio
-🎧 About the Project
+
+🎧 **About the Project**
+
 This project aims to **preserve radio broadcasts** for future generations.
 
 Electronic music evolves, and archiving its history is essential.
