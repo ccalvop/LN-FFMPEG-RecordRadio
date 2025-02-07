@@ -13,16 +13,12 @@ FFmpeg is a powerful multimedia tool, supporting multiple audio formats and stre
 
 Together, they provide a simple yet effective solution for continuous recording.
 
----
-
 ## Features
 - **Fully automated** recording process
 - **Waits until the next full hour** to ensure alignment
 - **Records continuously** without time gaps
 - **Custom file names** with timestamps for easy organization
 - **Runs on any Linux server** (cloud instances recommended)
-
----
 
 ## Requirements
 You need **FFmpeg** installed on your system.
@@ -31,8 +27,6 @@ You need **FFmpeg** installed on your system.
 ```bash
 sudo apt update && sudo apt install -y ffmpeg
 ```
-
----
 
 ### **Create the Script**
 
@@ -72,8 +66,6 @@ while true; do
 done
 ```
 
----
-
 ## Make the script executable
 ```bash
 chmod +x record_radio.sh
@@ -83,8 +75,6 @@ chmod +x record_radio.sh
 ```bash
 ./record_radio.sh
 ```
-
----
 
 ## Running in the Background (tmux)
 ```bash
@@ -102,14 +92,10 @@ Reattach to the session later:
 tmux attach -t radio
 ```
 
----
-
 ## Stop the script manually
 ```bash
 tmux kill-session -t radio
 ```
-
----
 
 ## Accessing Recordings
 All recorded audio files are stored in the recordings/ folder with a timestamped
