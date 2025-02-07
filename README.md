@@ -85,9 +85,11 @@ tmux new -s radio
 ./record_radio.sh
 ```
 
-**Detach from tmux** without stopping the script: Press CTRL + B, then D
+## Detach from tmux without stopping the script: 
 
-Reattach to the session later: 
+Press CTRL + B, then D
+
+## Reattach to the session later: 
 ```bash
 tmux attach -t radio
 ```
