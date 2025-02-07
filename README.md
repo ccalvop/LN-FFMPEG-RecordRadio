@@ -1,3 +1,8 @@
+🎧 About the Project
+This project aims to **preserve radio broadcasts** for future generations.
+Electronic music evolves, and archiving its history is essential.
+With this tool, you can store radio shows, analyze trends, or simply enjoy past broadcasts.
+
 # LN-FFMPEG-RecordRadio
 Automatically record an online radio station with bash script and ffmpeg in Linux
 
